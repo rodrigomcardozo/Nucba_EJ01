@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercico 3 : Formularios</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form>
+        <!--------------- Nombre y Apellido --------------->
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+        </div><br>
+        <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido">
+        </div>
+        <br>
+        <!--------------- Radio --------------->
+        <div>
+            <span>Modalidad de Cursada:</span>
+            <input type="radio" name="modalidad" value="OnDemand">
+            <label for="OnDemand">On Demand</label>
+            <input type="radio" name="modalidad" value="EnVivo">
+            <label for="EnVivo">En vivo</label>
+        </div><br>
+        
+        <!--------------- Mail --------------->
+        <div>
+            <label for="email">Correo:</label>
+            <input type="email" name="email" id="email">
+        </div><br>
+        <!--------------- Checkbox --------------->
+        <div>
+            <input type="checkbox">
+            <label for="suscripcion">Deseo recibir información sobre nuevos posteos en la plataforma de Nucba</label>
+            <br><br>
+            <input type="checkbox">
+            <label for="terminos">Declaro que leí los términos y condiciones y estoy listo para convertirme en desarrollador web Full Stack</label>
+        </div>
+        <br>
+        <!--------------- Botón de envío --------------->
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
